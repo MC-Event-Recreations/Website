@@ -1,28 +1,29 @@
+@import url("assets\css\fonts.css");
+
 body {
 	background:#262423;
 	color:#ffffff
 }
-
 #logo {
-	padding-top:2em;
-	height: 128px;
-	width: auto;
-}
+  float: center;
+  height: 128px;
+  width: auto; /* correct proportions to specified height */
 
+}
 h1 {
 	background:#313131;
 	font-size:2.25rem;
 	text-align:center;
-	font-family:Arial;
+	font-family:Noto Sans;
 }
 
 input {
     padding: 13px 17px;
     height: 1em;
-    border: 2px solid #262423;
+    border: 2px solid #aba09c;
     margin-top: 12px;
     margin-bottom: 7px;
-    font-family: Arial;
+    font-family: MinecraftSeven;
 }
 
 .center {
