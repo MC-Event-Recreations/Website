@@ -1,10 +1,12 @@
-@import url("assets\css\fonts.css");
+@import url("Minecraft.css");
+@import url("fonts.css");        
 
 body {
 	background:#262423;
 	color:#ffffff
 }
 #logo {
+  padding-top:1em;
   float: center;
   height: 128px;
   width: auto; /* correct proportions to specified height */
@@ -14,7 +16,10 @@ h1 {
 	background:#313131;
 	font-size:2.25rem;
 	text-align:center;
-	font-family:Noto Sans;
+	font-family:Arial;
+}
+p {
+    font-family:Arial;
 }
 
 input {
@@ -35,113 +40,12 @@ input {
 footer {
     margin-top: 3em;
     position: fixed; bottom:0;
-    padding-right: auto;
-    background-color: #252525;
+    padding:1em;
+    background-color: #101010;
     color: #ffffff;
+    width: 97.5%;
 }
 
 a {
 color: gold;
-}
-
-/* Buttons from minecraft.net, copyright of Mojang Studios */
-@media (prefers-reduced-motion:reduce) {
-    .minecraft-main-button {
-        -webkit-animation: none;
-        animation: none;
-        -webkit-transition: all .01s,opacity .01s .01s;
-        transition: all .01s,opacity .01s .01s
-    }
-}
-
-.minecraft-main-button {
-    margin: auto;
-    padding: 15px 30px;
-    border: none;
-    font-family: Noto Sans,sans-serif;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 700;
-    letter-spacing: .03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    -webkit-transition: all .25s,opacity .75s .5s;
-    transition: all .25s,opacity .75s .5s;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: pointer;
-    pointer-events: all
-}
-
-.minecraft-main-button.button-green {
-    background: #3b8526;
-    -webkit-box-shadow: inset 0 4px #6bc349,inset 0 -4px #2a631c,0 4px rgba(0,0,0,.25);
-    box-shadow: inset 0 4px #6bc349,inset 0 -4px #2a631c,0 4px rgba(0,0,0,.25);
-    color: #fff;
-    text-shadow: 0 1px 0 #2a631c
-}
-
-.minecraft-main-button.button-green.light-hover:focus,.minecraft-main-button.button-green.light-hover:hover {
-    -webkit-transition: all .25s,opacity .75s .5s;
-    transition: all .25s,opacity .75s .5s;
-    background: #171615;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#e7eaef),to(#8d8e92));
-    background-image: linear-gradient(#e7eaef,#8d8e92);
-    color: #252525;
-    text-shadow: 0 1px 0 #e7eaef;
-    text-decoration: none;
-    border: none;
-    -webkit-box-shadow: inset 0 0 #6bc349,inset 0 0 #2a631c;
-    box-shadow: inset 0 0 #6bc349,inset 0 0 #2a631c
-}
-
-.minecraft-main-button.button-green.light-hover:active {
-    -webkit-transition: all .25s,opacity .75s .5s;
-    transition: all .25s,opacity .75s .5s;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#8d8e92),to(#e7eaef));
-    background-image: linear-gradient(#8d8e92,#e7eaef);
-    color: #252525;
-    text-shadow: 0 -1px 0 #e7eaef;
-    -webkit-box-shadow: inset 0 -2px #e7eaef,inset 0 2px #8d8e92;
-    box-shadow: inset 0 -2px #e7eaef,inset 0 2px #8d8e92
-}
-
-.minecraft-main-button.button-green.button-grey {
-    -webkit-box-shadow: 0 6px 0 0 #6bc349 inset,0 -6px 0 0 #2a631c inset;
-    box-shadow: inset 0 6px 0 0 #6bc349,inset 0 -6px 0 0 #2a631c
-}
-
-.minecraft-main-button.button-red {
-    background: #eb282b;
-    -webkit-box-shadow: inset 0 4px #f3808a,inset 0 -4px #ba2426,0 4px rgba(0,0,0,.25);
-    box-shadow: inset 0 4px #f3808a,inset 0 -4px #ba2426,0 4px rgba(0,0,0,.25);
-    color: #fff;
-    text-shadow: 0 1px 0 #ba2426
-}
-
-.minecraft-main-button.button-red.light-hover:focus,.minecraft-main-button.button-red.light-hover:hover {
-    -webkit-transition: all .25s,opacity .75s .5s;
-    transition: all .25s,opacity .75s .5s;
-    background: #171615;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#e7eaef),to(#8d8e92));
-    background-image: linear-gradient(#e7eaef,#8d8e92);
-    color: #252525;
-    text-shadow: 0 1px 0 #e7eaef;
-    text-decoration: none;
-    border: none;
-    -webkit-box-shadow: inset 0 0 #f3808a,inset 0 0 #ba2426;
-    box-shadow: inset 0 0 #f3808a,inset 0 0 #ba2426
-}
-
-.minecraft-main-button.button-red.light-hover:active {
-    -webkit-transition: all .25s,opacity .75s .5s;
-    transition: all .25s,opacity .75s .5s;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#8d8e92),to(#e7eaef));
-    background-image: linear-gradient(#8d8e92,#e7eaef);
-    color: #252525;
-    text-shadow: 0 -1px 0 #e7eaef;
-    -webkit-box-shadow: inset 0 -2px #e7eaef,inset 0 2px #8d8e92;
-    box-shadow: inset 0 -2px #e7eaef,inset 0 2px #8d8e92
 }
