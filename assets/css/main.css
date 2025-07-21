@@ -2,7 +2,7 @@
 @import url("fonts.css");        
 
 body {
-	background:#262423;
+	background:#1b1b1b;
 	color:#ffffff
 }
 #logo {
@@ -10,42 +10,42 @@ body {
   float: center;
   height: 128px;
   width: auto; /* correct proportions to specified height */
-
 }
-h1 {
-	background:#313131;
-	font-size:2.25rem;
+h1, h2 {
 	text-align:center;
 	font-family:Arial;
+  border-top: 4px solid #444;
+  border-bottom: 4px solid #444;
+  background-color: #2d2d2d;
 }
 p {
-    font-family:Arial;
+  font-family:Arial;
 }
-
 input {
-    padding: 13px 17px;
-    height: 1em;
-    border: 2px solid #aba09c;
-    margin-top: 12px;
-    margin-bottom: 7px;
-    font-family: MinecraftSeven;
+  padding: 13px 17px;
+  height: 1em;
+  border: 2px solid #aba09c;
+  margin-top: 12px;
+  margin-bottom: 7px;
+  font-family: MinecraftSeven;
 }
-
 .center {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
   }
-
 footer {
-    margin-top: 3em;
-    position: fixed; bottom:0;
-    padding:1em;
-    background-color: #101010;
-    color: #ffffff;
-    width: 97.5%;
+  margin-top: 3em;
+  margin-left: -8px;
+  border-top: 4px solid #444;
+  position: fixed; bottom:0;
+  padding:1em;
+  background-color: #2d2d2d;
+  justify-content: space-between;
+  color: #808080;
+  width: 100%;
+  font-family: MinecraftSeven;
 }
-
 a {
-color: gold;
+  color: gold;
 }
