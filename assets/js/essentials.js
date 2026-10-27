@@ -1,6 +1,6 @@
 document.getElementById("head").innerHTML =
     "<link rel='stylesheet' href='assets/css/main.css'>"
-    "<link rel='stylesheet' href='assets/scss/main.scss'>"
+    + "<link rel='stylesheet' href='assets/scss/main.scss'>"
     + "<link rel='icon' href='assets/images/logos/favicon.ico' type='image/x-icon'>"
 	+ "<a href='index.html'> <img src='assets/images/logos/MCLER.png' id='logo' class='center'></a><br>";
 document.getElementById("footer").innerHTML =
