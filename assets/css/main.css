@@ -1,5 +1,5 @@
-@import url("Minecraft.css");
-@import url("fonts.css");        
+@import url("Minecraft.css"); 
+@import url("/assets/scss/main.scss");
 
 body {
 	background:#1b1b1b;

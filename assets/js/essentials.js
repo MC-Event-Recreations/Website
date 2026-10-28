@@ -1,9 +1,8 @@
-document.getElementById("head").innerHTML =
-    "<link rel='stylesheet' href='assets/css/main.css'>"
-    + "<link rel='stylesheet' href='assets/scss/main.scss'>"
-    + "<link rel='icon' href='assets/images/logos/favicon.ico' type='image/x-icon'>"
-	+ "<a href='index.html'> <img src='assets/images/logos/MCLER.png' id='logo' class='center'></a><br>";
-document.getElementById("footer").innerHTML =
+document.getElementsByTagName("head")[0].innerHTML += "<link rel='stylesheet' href='assets/css/main.css'><link rel='stylesheet' href='assets/scss/main.scss'><link rel='icon' href='assets/images/logos/favicon.ico' type='image/x-icon'>";
+document.getElementsByTagName("header")[0].innerHTML +=
+	"<a href='index.html' title='Retun to Home Page'><img src='assets/images/logos/MCLER.png' id='logo' class='center'></a><br/>"
+    + "<a href='play.html' title='Play and Join Now' algin='center'><button class='minecraft-main-button button-red center'>Play Now</button></a><br/>";
+document.getElementsByTagName("footer")[0].innerHTML =
     "<a href='https://archive.mceventrecreations.net'><button class='minecraft-main-button button-red'>Archives</button></a>"
     + " <a href='https://github.com/MC-Event-Recreations' title='GitHub Organization Page'><button class='minecraft-main-button button-red'>GitHub</button></a>"
     + " <a href='https://discord.com/invite/w4uFWffMkB?utm_source=Discord%20Widget&amp;utm_medium=Connect'><button class='minecraft-main-button button-red'>Discord server</button></a>"
